@@ -26,16 +26,17 @@ describe('Nav component', () =>{
     });
 
     // * snapshot test
-    it('renders Nav component to DOM node structure', () =>{
-        const { asFragment } = render(<Nav
-            categories={categories}
-            setCurrentCategory={mockSetCurrentCategory}
-            currentCategory={mockCurrentCategory}
-          />);
-        //assert value comparison
-        expect(asFragment()).toMatchSnapshot();
-    });
-});
+/* The above code is testing the Nav component. */
+//     it('renders Nav component to DOM node structure', () =>{
+//         const { asFragment } = render(<Nav
+//             categories={categories}
+//             setCurrentCategory={mockSetCurrentCategory}
+//             currentCategory={mockCurrentCategory}
+//           />);
+//         //assert value comparison
+//         expect(asFragment()).toMatchSnapshot();
+//     });
+ });
 
 // * test for emoji visibility
 // describe('emoji is visible', () => {
@@ -61,14 +62,7 @@ describe('Nav component', () =>{
 //         expect(getByTestId('link')).toHaveTextContent('Oh Snap!');
 //         expect(getByTestId('about')).toHaveTextContent('About me');
 //     });
-// });
+// })
 
-// describe('nav component works', () =>{
-//     it('renders', () => {
-//         render(<Nav
-//           categories={categories}
-//           setCurrentCategory={mockSetCurrentCategory}
-//           currentCategory={mockCurrentCategory}
-//         />);
-//       })
-// });
+
+
